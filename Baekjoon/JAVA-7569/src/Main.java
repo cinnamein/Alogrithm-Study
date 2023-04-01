@@ -15,21 +15,17 @@ public class Main {
 
     static class Pair {
         int x, y, z;
-
         Pair(int x, int y, int z) {
             this.x = x;
             this.y = y;
             this.z = z;
         }
-
         int getX() {
             return x;
         }
-
         int getY() {
             return y;
         }
-
         int getZ() {
             return z;
         }
@@ -41,7 +37,7 @@ public class Main {
         m = Integer.parseInt(st.nextToken());
         n = Integer.parseInt(st.nextToken());
         h = Integer.parseInt(st.nextToken());
-        tomato = new int[m + 2][n + 2][h + 2];
+        tomato = new int[m + 1][n + 1][h + 1];
         for (int i = 1; i <= h; i++) {
             for (int j = 1; j <= n; j++) {
                 st = new StringTokenizer(br.readLine());
