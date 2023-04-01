@@ -60,7 +60,6 @@ public class Main {
         for (int i = 1; i <= m; i++) {
             for (int j = 1; j <= n; j++) {
                 for (int k = 1; k <= h; k++) {
-                    //System.out.println(i + " " + j + " " + k + " " + tomato[i][j][k]);
                     if (tomato[i][j][k] == 0) result = -1;
                 }
             }
