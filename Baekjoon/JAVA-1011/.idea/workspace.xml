@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="f512dbad-4e16-42ec-8545-19f3fb835aa6" name="Changes" comment="baekjoon 1011 solved">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-    </list>
+    <list default="true" id="f512dbad-4e16-42ec-8545-19f3fb835aa6" name="Changes" comment="baekjoon 1011 solved" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -44,6 +42,7 @@
       <workItem from="1679845634159" duration="61000" />
       <workItem from="1679937926192" duration="149000" />
       <workItem from="1680338632567" duration="882000" />
+      <workItem from="1680371021197" duration="187000" />
     </task>
     <task id="LOCAL-00001" summary="baekjoon 1011 solved">
       <created>1679845689370</created>
