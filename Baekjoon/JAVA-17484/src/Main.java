@@ -37,8 +37,6 @@ public class Main {
             int mx = x + movement[i];
             if (y < n && 0 < mx && mx <= m) {
                 dp(mx, y + 1, tmp + arr[y + 1][mx], i);
-//                tmp += arr[y + 1][mx];
-//                dp(mx, y + 1, tmp, i);
             }
         }
     }
