@@ -21,29 +21,25 @@ public class Main {
                 arr[i][j] = Integer.parseInt(st.nextToken());
             }
         }
-        for (int k = 1; k < m; k++) {
-            System.out.println("--------------------------------");
-            dp(1, k, arr[1][k], 10);
+        for (int k = 1; k <= m; k++) {
+            dp(k, 1, arr[1][k], 10);
         }
         System.out.println(sum);
     }
 
-    public static void dp(int y, int x, int tmp, int des) {
-        System.out.println("x: " + x + ", y: " + y + ", tmp: " + tmp + " arr[x][y] = " + arr[y][x]);
+    public static void dp(int x, int y, int tmp, int des) {
         if (y == n) {
             sum = Math.min(tmp, sum);
-            System.out.println("sum: " + sum);
             return;
         }
         for (int i = 0; i < 3; i++) {
             if (i == des) continue;
             int mx = x + movement[i];
             if (y < n && 0 < mx && mx <= m) {
-                tmp += arr[y + 1][mx];
-                dp(y + 1, mx, tmp, i);
+                dp(mx, y + 1, tmp + arr[y + 1][mx], i);
+//                tmp += arr[y + 1][mx];
+//                dp(mx, y + 1, tmp, i);
             }
         }
     }
 }
-//559154
-//121211
