@@ -13,19 +13,19 @@ public class Main {
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
         StringBuilder sb = new StringBuilder();
-        for (int i = 1; i < n - m + 2; i++)
-            dp(i, 0, sb);
+        dp(1, 0, sb);
         System.out.println(result);
     }
 
     public static void dp(int num, int count, StringBuilder sb) {
-        count++;
+        System.out.println(num);
         if (count == m) {
-            result.append(sb + "\n");
+            result.append(sb);
+            result.append("\n");
             return;
         }
-        for (int i = num + 1; i <= n; i++) {
-            dp(i, count, new StringBuilder(sb + num + " "));
+        for (int i = num + 1; i < n - count + 2; i++) {
+            dp(i, count++, new StringBuilder(String.valueOf(sb) + i + " "));
         }
     }
 }
