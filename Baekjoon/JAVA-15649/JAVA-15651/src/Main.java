@@ -13,12 +13,12 @@ public class Main {
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
         for (int i = 1; i <= n; i++) {
-            dp(i, 1, i + " ");
+            dp(1, i + " ");
         }
         System.out.println(result);
     }
 
-    public static void dp(int num, int count, String str) {
+    public static void dp(int count, String str) {
         if (count == m) {
             result.append(str);
             result.append("\n");
@@ -26,7 +26,7 @@ public class Main {
         }
         count++;
         for (int i = 1; i <= n; i++) {
-            dp(i, count, str + i + " ");
+            dp(count, str + i + " ");
         }
     }
 }
