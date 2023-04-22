@@ -12,7 +12,7 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-        for (int i = 1; i <= n; i++) {
+        for (int i = 1; i <= n - m + 1; i++) {
             dp(i, 1, i + " ");
         }
         System.out.println(result);
@@ -25,7 +25,7 @@ public class Main {
             return;
         }
         count++;
-        for (int i = num; i <= n - m + count; i++) {
+        for (int i = num + 1; i <= n - m + count; i++) {
             dp(i, count, str + i + " ");
         }
     }
