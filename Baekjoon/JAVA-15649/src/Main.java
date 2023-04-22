@@ -12,20 +12,21 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
-        StringBuilder sb = new StringBuilder();
-        dp(1, 0, sb);
+        for (int i = 1; i <= n - m + 1; i++) {
+            dp(i, 1, i + " ");
+        }
         System.out.println(result);
     }
 
-    public static void dp(int num, int count, StringBuilder sb) {
-        System.out.println(num);
+    public static void dp(int num, int count, String str) {
         if (count == m) {
-            result.append(sb);
+            result.append(str);
             result.append("\n");
             return;
         }
-        for (int i = num + 1; i < n - count + 2; i++) {
-            dp(i, count++, new StringBuilder(String.valueOf(sb) + i + " "));
+        count++;
+        for (int i = num + 1; i <= n - m + count; i++) {
+            dp(i, count, str + i + " ");
         }
     }
 }
