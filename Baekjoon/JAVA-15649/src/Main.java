@@ -12,21 +12,25 @@ public class Main {
         StringTokenizer st = new StringTokenizer(br.readLine());
         n = Integer.parseInt(st.nextToken());
         m = Integer.parseInt(st.nextToken());
+        boolean[] arr = new boolean[n + 1];
         for (int i = 1; i <= n; i++) {
-            dp(i, 1, i + " ");
+            dp(i, 1, i + " ", arr);
         }
         System.out.println(result);
     }
 
-    public static void dp(int num, int count, String str) {
+    public static void dp(int num, int count, String str, boolean[] arr) {
         if (count == m) {
             result.append(str);
             result.append("\n");
             return;
         }
+        arr[num] = true;
         count++;
-        for (int i = num; i <= n - m + count; i++) {
-            dp(i, count, str + i + " ");
-        }
+        for (int i = 1; i <= n; i++) {
+            if (!arr[i]) {
+                arr[i] = true;
+                dp(i, count, str + i + " ", arr);
+            }        }
     }
 }
