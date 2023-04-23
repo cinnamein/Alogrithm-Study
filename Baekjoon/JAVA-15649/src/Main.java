@@ -29,8 +29,9 @@ public class Main {
         count++;
         for (int i = 1; i <= n; i++) {
             if (!arr[i]) {
-                arr[i] = true;
                 dp(i, count, str + i + " ", arr);
-            }        }
+            }
+        }
+        arr[num] = false;
     }
 }
