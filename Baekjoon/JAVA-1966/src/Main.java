@@ -39,7 +39,7 @@ public class Main {
             int n = Integer.parseInt(st.nextToken());
             int m = Integer.parseInt(st.nextToken());
             st = new StringTokenizer(br.readLine());
-            PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+            PriorityQueue<Integer> priorityQueue = new PriorityQueue<>(Collections.reverseOrder());
             Queue<Pair> queue = new LinkedList<>();
             for (int j = 0; j < n; j++) {
                 int tmp = Integer.parseInt(st.nextToken());
@@ -50,13 +50,17 @@ public class Main {
             int tmp = priorityQueue.poll();
             while (true) {
                 Pair pair = queue.poll();
-                if (tmp == pair.getY()) {
+                int x = pair.getX();
+                int y = pair.getY();
+                if (tmp > y) queue.add(pair);
+                else if (tmp == y && m != x) {
                     result++;
+                    queue.add(pair);
                     tmp = priorityQueue.poll();
-                } else if (tmp > pair.getY()) queue.add(pair);
-                else if (tmp == pair.getY() && m != pair.getX()) queue.add(pair);
-                else if (tmp == pair.getY() && m == pair.getX()) break;
-                System.out.println("반복");
+                }
+                else if (tmp == y && m == x) {
+                    break;
+                }
             }
             sb.append(result).append("\n");
         }
