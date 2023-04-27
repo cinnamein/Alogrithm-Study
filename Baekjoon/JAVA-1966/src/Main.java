@@ -1,10 +1,33 @@
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
-import java.util.Collections;
-import java.util.HashMap;
-import java.util.PriorityQueue;
-import java.util.StringTokenizer;
+import java.util.*;
+
+class Pair {
+    Integer x;
+    Integer y;
+
+    public Pair(Integer x, Integer y) {
+        this.x = x;
+        this.y = y;
+    }
+
+    public Integer getX() {
+        return x;
+    }
+
+    public Integer getY() {
+        return y;
+    }
+
+    public void setX(Integer x) {
+        this.x = x;
+    }
+
+    public void setY(Integer y) {
+        this.y = y;
+    }
+}
 
 public class Main {
     public static void main(String[] args) throws IOException {
@@ -15,22 +38,25 @@ public class Main {
             StringTokenizer st = new StringTokenizer(br.readLine());
             int n = Integer.parseInt(st.nextToken());
             int m = Integer.parseInt(st.nextToken());
-            HashMap<Integer, Integer> map = new HashMap<>();
-            PriorityQueue<Integer> queue = new PriorityQueue<>();
             st = new StringTokenizer(br.readLine());
+            PriorityQueue<Integer> priorityQueue = new PriorityQueue<>();
+            Queue<Pair> queue = new LinkedList<>();
             for (int j = 0; j < n; j++) {
                 int tmp = Integer.parseInt(st.nextToken());
-                map.put(j, tmp);
-                queue.add(tmp);
+                priorityQueue.add(tmp);
+                queue.add(new Pair(j, tmp));
             }
-            System.out.println(queue.poll());
-            int result = 0;
-            int num = map.get(m);
+            int result = 1;
+            int tmp = priorityQueue.poll();
             while (true) {
-                int tmp = queue.poll();
-                if (num < tmp) queue.add(tmp);
-                else if (num == tmp) break;
-                result++;
+                Pair pair = queue.poll();
+                if (tmp == pair.getY()) {
+                    result++;
+                    tmp = priorityQueue.poll();
+                } else if (tmp > pair.getY()) queue.add(pair);
+                else if (tmp == pair.getY() && m != pair.getX()) queue.add(pair);
+                else if (tmp == pair.getY() && m == pair.getX()) break;
+                System.out.println("반복");
             }
             sb.append(result).append("\n");
         }
