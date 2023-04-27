@@ -16,24 +16,23 @@ public class Main {
             int n = Integer.parseInt(st.nextToken());
             int m = Integer.parseInt(st.nextToken());
             HashMap<Integer, Integer> map = new HashMap<>();
-            PriorityQueue<Integer> queue = new PriorityQueue<>(Collections.reverseOrder());
+            PriorityQueue<Integer> queue = new PriorityQueue<>();
             st = new StringTokenizer(br.readLine());
             for (int j = 0; j < n; j++) {
                 int tmp = Integer.parseInt(st.nextToken());
                 map.put(j, tmp);
                 queue.add(tmp);
             }
-            int result = n;
-            m = map.get(m);
+            System.out.println(queue.poll());
+            int result = 0;
+            int num = map.get(m);
             while (true) {
                 int tmp = queue.poll();
-                if (m == tmp) {
-                    break;
-                } else {
-                    result--;
-                }
+                if (num < tmp) queue.add(tmp);
+                else if (num == tmp) break;
+                result++;
             }
-            sb.append(result + "\n");
+            sb.append(result).append("\n");
         }
         System.out.println(sb);
     }
