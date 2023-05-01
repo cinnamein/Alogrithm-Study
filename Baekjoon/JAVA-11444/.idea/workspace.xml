@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="89c9e7ee-46e5-4b2f-a214-368de794cb68" name="Changes" comment="" />
+    <list default="true" id="665cfd5e-7e57-4531-8048-1b66271dd05c" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,7 +13,7 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
   </component>
-  <component name="ProjectId" id="2OyEJKTA3Uk8FAN1wEXwDVQbTJV" />
+  <component name="ProjectId" id="2P11MNs2g03qs7TTcQ99Cpmziwf" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -23,7 +23,7 @@
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/project/Alogrithm-Study/Baekjoon/JAVA-1966",
+    "last_opened_file_path": "D:/project/recipe-website-backend",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -31,30 +31,15 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType">
-      <module name="JAVA-1966" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
-      <module name="JAVA-1966" />
-      <option name="filePath" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="89c9e7ee-46e5-4b2f-a214-368de794cb68" name="Changes" comment="" />
-      <created>1682524351726</created>
+      <changelist id="665cfd5e-7e57-4531-8048-1b66271dd05c" name="Changes" comment="" />
+      <created>1682609726476</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
-      <updated>1682524351726</updated>
-      <workItem from="1682524352621" duration="932000" />
+      <updated>1682609726476</updated>
+      <workItem from="1682609727493" duration="1331000" />
     </task>
     <servers />
   </component>
