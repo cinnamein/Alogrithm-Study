@@ -5,17 +5,6 @@ import java.util.LinkedList;
 import java.util.Queue;
 import java.util.StringTokenizer;
 
-class Node {
-    int num;
-    Node left;
-    Node right;
-
-    public Node(int num, Node left, Node right) {
-        this.num = num;
-        this.left = left;
-        this.right = right;
-    }
-}
 
 public class Main {
     static int n;
@@ -28,12 +17,16 @@ public class Main {
         arr = new int[(int) (Math.pow(2, n) - 1)];
         Queue<Integer> queue = new LinkedList<>();
         StringTokenizer st = new StringTokenizer(br.readLine());
-        for (int i = 0; i < n; i++) queue.add(Integer.parseInt(st.nextToken()));
+        int i = 0;
+        while (st.hasMoreTokens()) {
+            int value = Integer.parseInt(st.nextToken());
+            arr[i++] = value;
+        }
         sb = new String[n];
-        for (int j = 0; j < n; j++) sb[j] = new String();
+        for (int j = 0; j < n; j++) sb[j] = "";
         order(0, arr.length - 1, 0);
         for (int k = 0; k < n; k++){
-            System.out.println(sb);
+            System.out.println(sb[k]);
         }
     }
 
