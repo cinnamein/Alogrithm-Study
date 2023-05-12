@@ -19,11 +19,7 @@ public class Main {
             }
             int result = 0;
             for (int r = 0; r < m; r++) {
-                if (arr[0][r] + arr[1][r + 2] >= arr[0][r] + arr[1][r + 1] + arr[0][r + 2]) {
-                    result += arr[0][r] + arr[1][r + 2];
-                } else {
-                    result += arr[0][r] + arr[1][r + 1] + arr[0][r + 2];
-                }
+                result += Math.max(arr[0][r] + arr[1][r + 2], arr[0][r] + arr[1][r + 1] + arr[0][r + 2]);
             }
             System.out.println(result);
         }
