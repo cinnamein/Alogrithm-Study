@@ -15,31 +15,20 @@ public class Main {
             int n = Integer.parseInt(st.nextToken());
             int m = Integer.parseInt(st.nextToken());
             int result = 0;
-            HashMap<Integer, ArrayList<Integer>> city = new HashMap<>();
+            boolean[] city = new boolean[n + 1];
             while (m-- > 0) {
                 st = new StringTokenizer(br.readLine());
                 int a = Integer.parseInt(st.nextToken());
                 int b = Integer.parseInt(st.nextToken());
-                if (city.containsKey(a)) {
-                    if (!city.get(a).contains(b)) {
-                        ArrayList<Integer> tmp = city.get(a);
-                        tmp.add(b);
-                        city.put(a, tmp);
-                        result++;
-                    }
-                } else if (city.containsKey(b)) {
-                    if (!city.get(b).contains(a)) {
-                        ArrayList<Integer> tmp = city.get(b);
-                        tmp.add(a);
-                        city.put(b, tmp);
-                        result++;
-                    }
-                } else {
-                    ArrayList<Integer> tmp = new ArrayList<>();
-                    tmp.add(b);
-                    city.put(a, tmp);
-                    tmp.clear();
-                    tmp.add(a);
+                if (!city[a] && !city[b]) {
+                    city[a] = true;
+                    city[b] = true;
+                    result++;
+                } else if (!city[a]) {
+                    city[a] = true;
+                    result++;
+                } else if (!city[b]) {
+                    city[b] = true;
                     result++;
                 }
             }
