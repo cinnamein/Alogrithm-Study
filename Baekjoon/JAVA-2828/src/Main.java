@@ -13,7 +13,7 @@ public class Main {
         int left = 1;
         int right = m;
         int result = 0;
-        for (int i = 0; i < j; i++){
+        while(j-- > 0) {
             int apple = Integer.parseInt(br.readLine());
             if (apple < left){
                 result += left - apple;
