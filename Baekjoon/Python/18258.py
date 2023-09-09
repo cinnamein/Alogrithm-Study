@@ -1,30 +1,37 @@
 from collections import deque
-n = int(input())
-queue = deque([])
+import sys
+
+deque = deque()
+n = int(sys.stdin.readline())
+output = []
 
 for _ in range(n):
-    arr = input().split()
-    if arr[0] == "push":
-        queue.append(arr[1])
-    elif arr[0] == "pop":
-        if len(queue) == 0:
-            print(-1)
+    command = sys.stdin.readline().split()
+    if command[0] == "push":
+        num = int(command[1])
+        deque.append(num)
+    elif command[0] == "pop":
+        if not deque:
+            output.append(-1)
         else:
-            queue.popleft()
-    elif arr[0] == "size":
-        print(len(queue))
-    elif arr[0] == "empty":
-        if len(queue) == 0:
-            print(1)
+            output.append(deque.popleft())
+    elif command[0] == "size":
+        output.append(len(deque))
+    elif command[0] == "empty":
+        if not deque:
+            output.append(1)
         else:
-            print(0)
-    elif arr[0] == "front":
-        if len(queue) == 0:
-            print(-1)
+            output.append(0)
+    elif command[0] == "front":
+        if not deque:
+            output.append(-1)
         else:
-            print(queue[0])
-    elif arr[0] == "back":
-        if len(queue) == 0:
-            print(-1)
+            output.append(deque[0])
+    elif command[0] == "back":
+        if not deque:
+            output.append(-1)
         else:
-            print(queue[len(queue) - 1])
+            output.append(deque[-1])
+
+for item in output:
+    print(item)
