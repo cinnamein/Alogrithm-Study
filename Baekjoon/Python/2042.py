@@ -11,7 +11,7 @@ def init(start, end, index):
         return arrSum[index]
     mid = (start + end) // 2
     arrSum[index] = init(start, mid, index * 2) + init(mid + 1, end, index * 2 + 1)
-    return arr[index]
+    return arrSum[index]
 
 
 def search(start, end, index, left, right):
@@ -35,7 +35,6 @@ def update(start, end, index, updateIdx, updateData):
 
 
 init(1, n, 1)
-print(arrSum)
 for _ in range(m + k):
     a, b, c = map(int, sys.stdin.readline().split())
     if a == 1:
