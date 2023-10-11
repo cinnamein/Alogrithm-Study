@@ -4,7 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="69b35a51-63f0-4fb9-af9d-7109888e6cc2" name="Changes" comment="Solved: baekjoon 11725 by python">
+    <list default="true" id="69b35a51-63f0-4fb9-af9d-7109888e6cc2" name="Changes" comment="Solved: baekjoon 2477 by python">
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +22,20 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="GitHubPullRequestSearchHistory">{
+  &quot;lastFilter&quot;: {
+    &quot;state&quot;: &quot;OPEN&quot;,
+    &quot;assignee&quot;: &quot;oyune&quot;
+  }
+}</component>
+  <component name="GithubPullRequestsUISettings">
+    <option name="selectedUrlAndAccountId">
+      <UrlAndAccount>
+        <option name="accountId" value="c45ce5af-09fb-4d49-91f7-fe8246ad34f3" />
+        <option name="url" value="https://github.com/oyune/Alogrithm-Study.git" />
+      </UrlAndAccount>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -51,9 +66,14 @@
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
 }</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$" />
+    </key>
+  </component>
   <component name="RunManager" selected="Python.13305">
     <configuration name="10814" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-9372" />
+      <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -75,7 +95,7 @@
       <method v="2" />
     </configuration>
     <configuration name="13305" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Python-9372" />
+      <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -98,7 +118,7 @@
       <method v="2" />
     </configuration>
     <configuration name="1463" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-9372" />
+      <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -120,7 +140,7 @@
       <method v="2" />
     </configuration>
     <configuration name="14916" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-9372" />
+      <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -142,7 +162,7 @@
       <method v="2" />
     </configuration>
     <configuration name="15652" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-9372" />
+      <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -164,7 +184,7 @@
       <method v="2" />
     </configuration>
     <configuration name="18258" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="Python-9372" />
+      <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -186,7 +206,7 @@
       <method v="2" />
     </configuration>
     <configuration name="9372" type="PythonConfigurationType" factoryName="Python" nameIsGenerated="true">
-      <module name="Python-9372" />
+      <module name="Baekjoon" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
       <envs>
@@ -281,6 +301,21 @@
       <workItem from="1696054655674" duration="8176000" />
       <workItem from="1696067657245" duration="2235000" />
       <workItem from="1696148689691" duration="4775000" />
+      <workItem from="1696223511061" duration="83000" />
+      <workItem from="1696224273818" duration="3311000" />
+      <workItem from="1696303202196" duration="601000" />
+      <workItem from="1696350250219" duration="609000" />
+      <workItem from="1696354002440" duration="1485000" />
+      <workItem from="1696472736568" duration="6496000" />
+      <workItem from="1696485308978" duration="980000" />
+      <workItem from="1696552678706" duration="6613000" />
+      <workItem from="1696670619520" duration="17531000" />
+      <workItem from="1696723822433" duration="7992000" />
+      <workItem from="1696830274684" duration="14512000" />
+      <workItem from="1696897656499" duration="39000" />
+      <workItem from="1696902969338" duration="4775000" />
+      <workItem from="1697003376999" duration="1398000" />
+      <workItem from="1697035164967" duration="9000" />
     </task>
     <task id="LOCAL-00001" summary="solved: baekjoon 3036 implemented by python">
       <created>1687639209661</created>
@@ -401,30 +436,6 @@
       <option name="project" value="LOCAL" />
       <updated>1689744284471</updated>
     </task>
-    <task id="LOCAL-00018" summary="implemented: baekjoon 4673 by python">
-      <option name="closed" value="true" />
-      <created>1694104350769</created>
-      <option name="number" value="00018" />
-      <option name="presentableId" value="LOCAL-00018" />
-      <option name="project" value="LOCAL" />
-      <updated>1694104350769</updated>
-    </task>
-    <task id="LOCAL-00019" summary="implementing: baekjoon 12865 by python">
-      <option name="closed" value="true" />
-      <created>1694018042218</created>
-      <option name="number" value="00019" />
-      <option name="presentableId" value="LOCAL-00019" />
-      <option name="project" value="LOCAL" />
-      <updated>1694018042218</updated>
-    </task>
-    <task id="LOCAL-00020" summary="implementing: baekjoon 1966 by python">
-      <option name="closed" value="true" />
-      <created>1694185780438</created>
-      <option name="number" value="00020" />
-      <option name="presentableId" value="LOCAL-00020" />
-      <option name="project" value="LOCAL" />
-      <updated>1694185780438</updated>
-    </task>
     <task id="LOCAL-00021" summary="implementing: baekjoon 18258 by python">
       <option name="closed" value="true" />
       <created>1694273136500</created>
@@ -481,14 +492,6 @@
       <option name="project" value="LOCAL" />
       <updated>1694958656449</updated>
     </task>
-    <task id="LOCAL-00028" summary="implementing: baekjoon 1000 by python">
-      <option name="closed" value="true" />
-      <created>1693490268848</created>
-      <option name="number" value="00028" />
-      <option name="presentableId" value="LOCAL-00028" />
-      <option name="project" value="LOCAL" />
-      <updated>1693490268848</updated>
-    </task>
     <task id="LOCAL-00029" summary="implementing: baekjoon 10773 by python">
       <option name="closed" value="true" />
       <created>1695027226128</created>
@@ -504,14 +507,6 @@
       <option name="presentableId" value="LOCAL-00030" />
       <option name="project" value="LOCAL" />
       <updated>1695073322815</updated>
-    </task>
-    <task id="LOCAL-00031" summary="implementing: baekjoon 11047 by python">
-      <option name="closed" value="true" />
-      <created>1693259880403</created>
-      <option name="number" value="00031" />
-      <option name="presentableId" value="LOCAL-00031" />
-      <option name="project" value="LOCAL" />
-      <updated>1693259880403</updated>
     </task>
     <task id="LOCAL-00032" summary="implementing: baekjoon 2042 by python">
       <option name="closed" value="true" />
@@ -544,22 +539,6 @@
       <option name="presentableId" value="LOCAL-00035" />
       <option name="project" value="LOCAL" />
       <updated>1695400838390</updated>
-    </task>
-    <task id="LOCAL-00036" summary="Solved: baekjoon 4101 by python">
-      <option name="closed" value="true" />
-      <created>1692926952542</created>
-      <option name="number" value="00036" />
-      <option name="presentableId" value="LOCAL-00036" />
-      <option name="project" value="LOCAL" />
-      <updated>1692926952542</updated>
-    </task>
-    <task id="LOCAL-00037" summary="Solved: baekjoon 10189 by python">
-      <option name="closed" value="true" />
-      <created>1692840722144</created>
-      <option name="number" value="00037" />
-      <option name="presentableId" value="LOCAL-00037" />
-      <option name="project" value="LOCAL" />
-      <updated>1692840722144</updated>
     </task>
     <task id="LOCAL-00038" summary="Solved: baekjoon 1725 by python">
       <option name="closed" value="true" />
@@ -625,7 +604,95 @@
       <option name="project" value="LOCAL" />
       <updated>1696162506610</updated>
     </task>
-    <option name="localTasksCounter" value="46" />
+    <task id="LOCAL-00046" summary="file reorganize">
+      <option name="closed" value="true" />
+      <created>1696223567847</created>
+      <option name="number" value="00046" />
+      <option name="presentableId" value="LOCAL-00046" />
+      <option name="project" value="LOCAL" />
+      <updated>1696223567847</updated>
+    </task>
+    <task id="LOCAL-00047" summary="Solved: baekjoon 15624 by python">
+      <option name="closed" value="true" />
+      <created>1696263923001</created>
+      <option name="number" value="00047" />
+      <option name="presentableId" value="LOCAL-00047" />
+      <option name="project" value="LOCAL" />
+      <updated>1696263923001</updated>
+    </task>
+    <task id="LOCAL-00048" summary="Solved: baekjoon 10826 by python">
+      <option name="closed" value="true" />
+      <created>1696382608908</created>
+      <option name="number" value="00048" />
+      <option name="presentableId" value="LOCAL-00048" />
+      <option name="project" value="LOCAL" />
+      <updated>1696382608908</updated>
+    </task>
+    <task id="LOCAL-00049" summary="Solved: baekjoon 2749 by python">
+      <option name="closed" value="true" />
+      <created>1696485319388</created>
+      <option name="number" value="00049" />
+      <option name="presentableId" value="LOCAL-00049" />
+      <option name="project" value="LOCAL" />
+      <updated>1696485319388</updated>
+    </task>
+    <task id="LOCAL-00050" summary="Solved: baekjoon 27210 by python">
+      <option name="closed" value="true" />
+      <created>1696582696975</created>
+      <option name="number" value="00050" />
+      <option name="presentableId" value="LOCAL-00050" />
+      <option name="project" value="LOCAL" />
+      <updated>1696582696976</updated>
+    </task>
+    <task id="LOCAL-00051" summary="Solved: baekjoon borame2 A by python">
+      <option name="closed" value="true" />
+      <created>1696678147360</created>
+      <option name="number" value="00051" />
+      <option name="presentableId" value="LOCAL-00051" />
+      <option name="project" value="LOCAL" />
+      <updated>1696678147361</updated>
+    </task>
+    <task id="LOCAL-00052" summary="Rename: project, 30204">
+      <option name="closed" value="true" />
+      <created>1696694146563</created>
+      <option name="number" value="00052" />
+      <option name="presentableId" value="LOCAL-00052" />
+      <option name="project" value="LOCAL" />
+      <updated>1696694146563</updated>
+    </task>
+    <task id="LOCAL-00053" summary="Solved: baekjoon 30205 by python">
+      <option name="closed" value="true" />
+      <created>1696774143791</created>
+      <option name="number" value="00053" />
+      <option name="presentableId" value="LOCAL-00053" />
+      <option name="project" value="LOCAL" />
+      <updated>1696774143792</updated>
+    </task>
+    <task id="LOCAL-00054" summary="Solved: baekjoon 5339 by python">
+      <option name="closed" value="true" />
+      <created>1696862886766</created>
+      <option name="number" value="00054" />
+      <option name="presentableId" value="LOCAL-00054" />
+      <option name="project" value="LOCAL" />
+      <updated>1696862886766</updated>
+    </task>
+    <task id="LOCAL-00055" summary="Solved: baekjoon 2589 by python">
+      <option name="closed" value="true" />
+      <created>1696945389662</created>
+      <option name="number" value="00055" />
+      <option name="presentableId" value="LOCAL-00055" />
+      <option name="project" value="LOCAL" />
+      <updated>1696945389663</updated>
+    </task>
+    <task id="LOCAL-00056" summary="Solved: baekjoon 2477 by python">
+      <option name="closed" value="true" />
+      <created>1697010639455</created>
+      <option name="number" value="00056" />
+      <option name="presentableId" value="LOCAL-00056" />
+      <option name="project" value="LOCAL" />
+      <updated>1697010639456</updated>
+    </task>
+    <option name="localTasksCounter" value="57" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -643,17 +710,6 @@
     </option>
   </component>
   <component name="VcsManagerConfiguration">
-    <MESSAGE value="implementing: baekjoon 1966 by python" />
-    <MESSAGE value="implementing: baekjoon 18258 by python" />
-    <MESSAGE value="implementing: baekjoon 2003 by python" />
-    <MESSAGE value="implementing: baekjoon 2407 by python" />
-    <MESSAGE value="implementing: baekjoon 7568 by python" />
-    <MESSAGE value="implementing: baekjoon 13305 by python" />
-    <MESSAGE value="implementing: baekjoon 2217 by python" />
-    <MESSAGE value="implementing: baekjoon 2630 by python" />
-    <MESSAGE value="implementing: baekjoon 1000 by python" />
-    <MESSAGE value="implementing: baekjoon 10773 by python" />
-    <MESSAGE value="implementing: baekjoon 1316 by python" />
     <MESSAGE value="implementing: baekjoon 11047 by python" />
     <MESSAGE value="implementing: baekjoon 2042 by python" />
     <MESSAGE value="implemented: baekjoon 2042 by python" />
@@ -668,11 +724,22 @@
     <MESSAGE value="Solved: baekjoon 1152 by python" />
     <MESSAGE value="Solved: baekjoon 1991 by python" />
     <MESSAGE value="Solved: baekjoon 11725 by python" />
-    <option name="LAST_COMMIT_MESSAGE" value="Solved: baekjoon 11725 by python" />
+    <MESSAGE value="file reorganize" />
+    <MESSAGE value="Solved: baekjoon 15624 by python" />
+    <MESSAGE value="Solved: baekjoon 10826 by python" />
+    <MESSAGE value="Solved: baekjoon 2749 by python" />
+    <MESSAGE value="Solved: baekjoon 27210 by python" />
+    <MESSAGE value="Solved: baekjoon borame2 A by python" />
+    <MESSAGE value="Rename: project, 30204" />
+    <MESSAGE value="Solved: baekjoon 30205 by python" />
+    <MESSAGE value="Solved: baekjoon 5339 by python" />
+    <MESSAGE value="Solved: baekjoon 2589 by python" />
+    <MESSAGE value="Solved: baekjoon 2477 by python" />
+    <option name="LAST_COMMIT_MESSAGE" value="Solved: baekjoon 2477 by python" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Python$1003.coverage" NAME="1003 Coverage Results" MODIFIED="1689145035137" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
-    <SUITE FILE_PATH="coverage/Python$13305.coverage" NAME="13305 Coverage Results" MODIFIED="1696162199004" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$13305.coverage" NAME="13305 Coverage Results" MODIFIED="1696580266155" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$1047.coverage" NAME="1047 Coverage Results" MODIFIED="1688895088911" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$14916.coverage" NAME="14916 Coverage Results" MODIFIED="1689615338726" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$4949.coverage" NAME="4949 Coverage Results" MODIFIED="1695396409166" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
@@ -680,30 +747,43 @@
     <SUITE FILE_PATH="coverage/Python$15649.coverage" NAME="15649 Coverage Results" MODIFIED="1688805031853" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$2407.coverage" NAME="2407 Coverage Results" MODIFIED="1694586788948" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$1000.coverage" NAME="1000 Coverage Results" MODIFIED="1694958986475" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Baekjoon$5339.coverage" NAME="5339 Coverage Results" MODIFIED="1696692026269" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$10815.coverage" NAME="10815 Coverage Results" MODIFIED="1689039289898" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$2003.coverage" NAME="2003 Coverage Results" MODIFIED="1694438038000" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$18870.coverage" NAME="18870 Coverage Results" MODIFIED="1695400624193" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$A.coverage" NAME="A Coverage Results" MODIFIED="1696678080699" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/borame2" />
     <SUITE FILE_PATH="coverage/Python$15651.coverage" NAME="15651 Coverage Results" MODIFIED="1689039154329" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$2217.coverage" NAME="2217 Coverage Results" MODIFIED="1694885623314" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Baekjoon$B.coverage" NAME="B Coverage Results" MODIFIED="1696692998991" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/borame2" />
+    <SUITE FILE_PATH="coverage/Python$27210.coverage" NAME="27210 Coverage Results" MODIFIED="1696582656734" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$15624.coverage" NAME="15624 Coverage Results" MODIFIED="1696263815988" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$9372.coverage" NAME="9372 Coverage Results" MODIFIED="1689010602333" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$3036.coverage" NAME="13116 Coverage Results" MODIFIED="1688532719766" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$2042.coverage" NAME="2042 Coverage Results" MODIFIED="1695492975320" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Baekjoon$30205.coverage" NAME="30205 Coverage Results" MODIFIED="1696773892588" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$10189.coverage" NAME="10189 Coverage Results" MODIFIED="1692927085574" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$1725.coverage" NAME="1725 Coverage Results" MODIFIED="1695618107021" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$2475.coverage" NAME="2475 Coverage Results" MODIFIED="1695705770002" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Baekjoon$13305.coverage" NAME="13305 Coverage Results" MODIFIED="1696723923434" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Baekjoon$30207.coverage" NAME="30207 Coverage Results" MODIFIED="1696696464864" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$1463.coverage" NAME="1463 Coverage Results" MODIFIED="1689785893659" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$13116.coverage" NAME="13116 Coverage Results" MODIFIED="1688626117413" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$10773.coverage" NAME="10773 Coverage Results" MODIFIED="1695027126538" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$11047.coverage" NAME="11047 Coverage Results" MODIFIED="1695074059697" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$2749.coverage" NAME="2749 Coverage Results" MODIFIED="1696478736767" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$15650.coverage" NAME="15650 Coverage Results" MODIFIED="1688893376551" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$1152.coverage" NAME="1152 Coverage Results" MODIFIED="1695961955700" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$14940.coverage" NAME="14940 Coverage Results" MODIFIED="1695894359514" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$11725.coverage" NAME="11725 Coverage Results" MODIFIED="1696162301113" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$10814.coverage" NAME="10814 Coverage Results" MODIFIED="1689744157683" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$12865.coverage" NAME="12865 Coverage Results" MODIFIED="1694672358876" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$E.coverage" NAME="E Coverage Results" MODIFIED="1696676100336" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/borame2" />
     <SUITE FILE_PATH="coverage/Python$1991.coverage" NAME="1991 Coverage Results" MODIFIED="1696064257085" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Baekjoon$2589.coverage" NAME="2589 Coverage Results" MODIFIED="1696873726867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$7568.coverage" NAME="7568 Coverage Results" MODIFIED="1694687844197" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$10826.coverage" NAME="10826 Coverage Results" MODIFIED="1696382468780" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$15652.coverage" NAME="15652 Coverage Results" MODIFIED="1689615309867" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/Python$18258.coverage" NAME="18258 Coverage Results" MODIFIED="1694272891917" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/Python$B.coverage" NAME="B Coverage Results" MODIFIED="1696690612713" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/borame2" />
   </component>
 </project>
