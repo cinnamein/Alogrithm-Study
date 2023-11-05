@@ -1,22 +1,17 @@
 import sys
 
-n, m = map(int, sys.stdin.readline().split())
-arr = (map(int, sys.stdin.readline().split()) for _ in range(n))
-res = 0
+n, k = map(int, sys.stdin.readline().split())
+knapsack = [[0 for _ in range(k + 1)] for _ in range(n + 1)]
+stuff = list(list(map(int, sys.stdin.readline().split())) for _ in range(n))
 
-def dp(num, cnt, w, cost):
-    tmpW = w + arr[num][0]
-    tmpCost = cost + arr[num][1]
-    if tmpW >= m:
-        return
-    else:
-        dp(num, cnt, tmpW, tmpCost)
-    global res
-    res = max(tmpCost, res)
+for i in range(1, n + 1):
+    for j in range(1, k + 1):
+        weight = stuff[i - 1][0]
+        value = stuff[i - 1][1]
 
-for i in range(n):
-    # 스타트
-    for ii in range(n):
-        # 몇 개
-        dp(i, ii, 0, 0)
-print(res)
+        if j < weight:
+            knapsack[i][j] = knapsack[i - 1][j]
+        else:
+            knapsack[i][j] = max(value + knapsack[i - 1][j - weight], knapsack[i - 1][j])
+
+print(knapsack[n][k])
