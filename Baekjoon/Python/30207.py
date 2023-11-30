@@ -1,5 +1,5 @@
+import heapq
 import sys
-from queue import PriorityQueue
 
 # 병사의 수
 n = int(sys.stdin.readline())
@@ -12,7 +12,7 @@ for _ in range(q):
     cnt = []
     for i in range(n):
         # 횟수, 군번
-        cnt.put([li[i], i])
+        heapq.heappush(cnt, [li[i], i])
 
     # 식당 차출 프로그램 가동일수, 군번
     d, x = map(int, sys.stdin.readline().split())
@@ -22,23 +22,34 @@ for _ in range(q):
         # 병사가 3명일 경우 차출된 횟수 차이가 줄어들지 않음
         print(d)
     else:
-        # 반복문 1회 반복 시 하루가 지남
-        for i in range(30 * n):
-            temp = PriorityQueue()
-            for _ in range(3):
-                tmp = cnt.get()
-                temp.put([tmp[0] + 1, tmp[1]])
-            for _ in range(3):
-                cnt.put(temp.get())
-            if i == d - 1:
-                last = i
-                break
-
-        # 차출 횟수 검색
-        for i in range(n):
-            tmp = cnt.get()
-            if tmp[1] == x:
-                if d >= 30 * n:
-                    print(tmp[0] + 3 * (d - last) // n - li[x])
-                else:
-                    print(tmp[0] - li[x])
+        day = (30 * n + 2) // 3
+        if day <= 10 * n:
+            # 병사 간 차출 횟수가 동일하지 않은 경우
+            for i in range(day):
+                # 반복문 1회 반복 시 하루가 지남
+                currentDay = []
+                for _ in range(3):
+                    # 3명 차출
+                    tmp = heapq.heappop(cnt)
+                    heapq.heappush(currentDay, [tmp[0] + 1, tmp[1]])
+                for _ in range(3):
+                    heapq.heappush(cnt, heapq.heappop(currentDay))
+                if i == d - 1:
+                    break
+                for k in cnt:
+                    if k[1] == x:
+                        print(k[0] - li[x])
+                        break
+        else:
+            # 차출 횟수가 동일해진 경우
+            last = (day * 3 + sum(li)) % n
+            for i in cnt:
+                if i[1] == x:
+                    if last < x:
+                        # 시뮬레이션이 끝나는 시점에서 마지막으로 차출된 병사보다 군번이 높을 경우
+                        print(day * 3 // n - li[x])
+                        print(222222)
+                    else:
+                        # 시뮬레이션이 끝나는 시점에서 마지막으로 차출된 병사보다 군번이 낮거나 같은 경우
+                        print(day * 3 // n - 1)
+                        print(333333)
